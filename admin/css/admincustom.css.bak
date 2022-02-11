@@ -1,0 +1,41 @@
+.navbar-dark .navbar-nav .nav-link{
+	
+	padding-left:150px;
+	color: white;
+	width: 300px;
+	text-align: left;
+}
+
+li {
+  border-right: 1px solid #bbb;
+}
+#nbar a{
+	text-decoration:none;
+	color:white;
+	
+	
+}
+#bar{
+	margin-left:40px;
+	width:300px;
+
+	
+}
+li:last-child {
+  border-right: none;
+}
+.card{
+	width:200px;
+}
+.my-custom-scrollbar {
+position: relative;
+height: 200px;
+overflow: auto;
+}
+.table-wrapper-scroll-y {
+display: block;
+}
+td a{
+	color:white;
+	text-decoration:none;
+}
