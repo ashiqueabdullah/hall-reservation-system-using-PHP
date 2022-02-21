@@ -3,7 +3,7 @@ Class Database{
  public $host   = "localhost";
  public $user   = "root";
  public $pass   = "";
- public $dbname = "universityadmissionhub";
+ public $dbname = "hall_automation";
  
  
  public $link;
