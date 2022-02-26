@@ -5,15 +5,6 @@
 		<h3 style="text-align:center;background:orange;color:white">Provost</h3>
 		<hr class="red bar" style="background:red">
 
-		
-
-
-					
-						
-		
-			
-			
-			
 			
 			
 

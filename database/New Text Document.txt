@@ -1,0 +1,13 @@
+CREATE TABLE `depertment` ( `depert_Id` , `depert_name` varchar(250)
+
+ CREATE TABLE `office_notice` ( `Notice_ID` int(11) NOT NULL, `Prov_ID` int(11) DEFAULT NULL, `Notice_Date` date DEFAULT NULL, `Notice` text DEFAULT NULL )
+
+CREATE TABLE `provost` ( `Prov_ID` int(11) NOT NULL, `Prov_Name` varchar(50) DEFAULT NULL, `Designation` varchar(50) DEFAULT NULL, `Academic_Designation` varchar(50) DEFAULT NULL, `Department` int(11) NOT NULL, `Email` varchar(100) DEFAULT NULL, `Mobile` varchar(20) DEFAULT NULL, `dept` int(11) DEFAULT NULL )
+
+CREATE TABLE `room` ( `room_id` int(11) NOT NULL, `room_number` int(11) DEFAULT NULL 
+
+CREATE TABLE `staff` ( `Staff_ID` int(15) NOT NULL, `Staff_Name` int(25) NOT NULL, `Designation` varchar(25) NOT NULL, `Mobile` int(11) NOT NULL, `depertment` int(11) DEFAULT NULL, `email` varchar(50) DEFAULT NULL )
+
+CREATE TABLE `student` ( `St_ID` int(11) NOT NULL, `St_Name` varchar(100) DEFAULT NULL, `St_Rag` varchar(50) DEFAULT NULL, `Dept_ID` int(11) DEFAULT NULL, `Room_No` varchar(10) DEFAULT NULL, `Mobile` varchar(20) DEFAULT NULL, `Home_District` varchar(50) DEFAULT NULL ) 
+
+CREATE TABLE `st_complain` ( `Com_ID` int(11) NOT NULL, `St_ID` int(11) DEFAULT NULL, `Com_Date` date DEFAULT NULL, `Complain` text DEFAULT NULL )

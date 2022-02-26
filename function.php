@@ -66,6 +66,20 @@
         $getresult=$this->db->select($sql);
         return $getresult;
       }
+
+      function addStaff($data){
+        $name=$data['name'];
+        $designation=$data['designation'];
+        $number=$data['number'];
+        $department=$data['department'];
+        $emai=$data['email'];
+
+        $sql="INSERT INTO `staff`(`Staff_Name`, `Designation`, `Mobile`, `depertment`, `email`) VALUES ('$name','$designation','$number','$department','$email')";
+
+        if ($name!="") {
+          $res=$this->db->insert($sql);
+        }
+      }
 }
 
   ?>
