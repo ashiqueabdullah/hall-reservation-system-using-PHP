@@ -87,6 +87,24 @@
         $getresult=$this->db->select($sql);
         return $getresult;
       }
+
+      function studentAdd($data){
+       $name=$data['name'];
+       $roll=$data['roll'];
+       $Department=$data['Department'];
+       $room_number=$data['room_number'];
+       $phone_number=$data['phone_number'];
+       $email=$data['email'];
+       $password=$data['password'];
+       $city=$data['city'];
+
+       $sql="INSERT INTO `student`(`St_Name`, `St_Rag`, `Dept_ID`, `Room_No`, `Mobile`, `email`, `password`, `city`) VALUES ('$name',' $roll','$Department','$room_number','$phone_number','$email','$password','[$city')";
+
+
+       $res= $this->db->insert($sql);
+       
+
+      }
 }
 
   ?>
