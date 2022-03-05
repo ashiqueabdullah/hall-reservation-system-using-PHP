@@ -42,7 +42,7 @@
               ?>
 
               <tr>
-                <option name="department" value="<?php echo $r['depert_Id'] ?>"><?php echo $r['depert_name'] ?></option>
+                <option value="<?php echo $r['depert_Id'] ?>"><?php echo $r['depert_name'] ?></option>
               </tr>
 
             <?php 

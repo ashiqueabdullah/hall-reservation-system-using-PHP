@@ -69,7 +69,7 @@
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
 			<li class="nav-item">
-				<a class="dropdown-item" href="../signup.php">Student Signup</a>
+				<a class="dropdown-item" href="signup.php">Student Signup</a>
 			</li>
             <li><a class="dropdown-item" href="adminstudentprob.html">Student Problem</a></li>
           </ul>
